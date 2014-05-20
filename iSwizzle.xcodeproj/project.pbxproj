@@ -22,6 +22,8 @@
 		E47FC9B1192B9D10001BD60E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E47FC990192B9D10001BD60E /* UIKit.framework */; };
 		E47FC9B9192B9D10001BD60E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E47FC9B7192B9D10001BD60E /* InfoPlist.strings */; };
 		E47FC9BB192B9D11001BD60E /* iSwizzleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E47FC9BA192B9D10001BD60E /* iSwizzleTests.m */; };
+		E47FC9C6192B9DAF001BD60E /* Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = E47FC9C5192B9DAF001BD60E /* Swizzle.m */; };
+		E47FC9C9192B9DF9001BD60E /* UIViewController+Logging.m in Sources */ = {isa = PBXBuildFile; fileRef = E47FC9C8192B9DF9001BD60E /* UIViewController+Logging.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,10 @@
 		E47FC9B6192B9D10001BD60E /* iSwizzleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iSwizzleTests-Info.plist"; sourceTree = "<group>"; };
 		E47FC9B8192B9D10001BD60E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E47FC9BA192B9D10001BD60E /* iSwizzleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iSwizzleTests.m; sourceTree = "<group>"; };
+		E47FC9C4192B9DAF001BD60E /* Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Swizzle.h; sourceTree = "<group>"; };
+		E47FC9C5192B9DAF001BD60E /* Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Swizzle.m; sourceTree = "<group>"; };
+		E47FC9C7192B9DF9001BD60E /* UIViewController+Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Logging.h"; sourceTree = "<group>"; };
+		E47FC9C8192B9DF9001BD60E /* UIViewController+Logging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Logging.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +128,10 @@
 				E47FC9A2192B9D10001BD60E /* FirstViewController.m */,
 				E47FC9A4192B9D10001BD60E /* SecondViewController.h */,
 				E47FC9A5192B9D10001BD60E /* SecondViewController.m */,
+				E47FC9C7192B9DF9001BD60E /* UIViewController+Logging.h */,
+				E47FC9C8192B9DF9001BD60E /* UIViewController+Logging.m */,
+				E47FC9C4192B9DAF001BD60E /* Swizzle.h */,
+				E47FC9C5192B9DAF001BD60E /* Swizzle.m */,
 				E47FC9A7192B9D10001BD60E /* Images.xcassets */,
 				E47FC993192B9D10001BD60E /* Supporting Files */,
 			);
@@ -256,7 +266,9 @@
 			files = (
 				E47FC9A6192B9D10001BD60E /* SecondViewController.m in Sources */,
 				E47FC99D192B9D10001BD60E /* AppDelegate.m in Sources */,
+				E47FC9C6192B9DAF001BD60E /* Swizzle.m in Sources */,
 				E47FC9A3192B9D10001BD60E /* FirstViewController.m in Sources */,
+				E47FC9C9192B9DF9001BD60E /* UIViewController+Logging.m in Sources */,
 				E47FC999192B9D10001BD60E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

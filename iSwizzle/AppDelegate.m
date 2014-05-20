@@ -7,12 +7,19 @@
 //
 
 #import "AppDelegate.h"
+#import "Swizzle.h"
+#import "UIViewController+Logging.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    Swizzle([UIViewController class], @selector(viewWillAppear:), @selector(viewWillAppearWithLogging:));
+    Swizzle([UIViewController class], @selector(viewDidAppear:), @selector(viewDidAppearWithLogging:));
+    Swizzle([UIViewController class], @selector(viewWillDisappear:), @selector(viewWillDisappearWithLogging:));
+    Swizzle([UIViewController class], @selector(viewDidDisappear:), @selector(viewDidDisappearWithLogging:));
+    
     return YES;
 }
 							
