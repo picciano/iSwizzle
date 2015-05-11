@@ -7,3 +7,4 @@
 //
 
 void Swizzle(Class c, SEL orig, SEL new);
+void SwizzleD(Class c, SEL orig, Class d, SEL new);
